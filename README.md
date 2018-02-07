@@ -1,6 +1,6 @@
 # Slay The Spire Reddit Enhancement
 
-This is an ** alpha ** chrome/firefox extention for the subreddit SLay The Spire at https://www.reddit.com/r/slaythespire/
+This is an ** alpha ** chrome/firefox extension for the subreddit SLay The Spire at https://www.reddit.com/r/slaythespire/
 
 It provides cards informations on hover when you are in a post :
 
@@ -21,11 +21,11 @@ npm install -g typescript
 # Devs : Compile & test
 
 ```shell
-# In /web-extention folder
-# It will allow you to run and update the extention on every change
+# In /web-extension folder
+# It will allow you to run and update the extension on every change
 web-ext run
 
-# in /web-extention/src
+# in /web-extension/src
 # It compiles typescript into js
 tsc -w
 ```
