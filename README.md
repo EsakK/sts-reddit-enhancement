@@ -21,11 +21,11 @@ npm install -g typescript
 # Devs : Compile & test
 
 ```shell
-# In the root folder
+# In /web-extention folder
 # It will allow you to run and update the extention on every change
 web-ext run
 
-# in /src
+# in /web-extention/src
 # It compiles typescript into js
 tsc -w
 ```
