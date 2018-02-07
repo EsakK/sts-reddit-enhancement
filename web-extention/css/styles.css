@@ -1,0 +1,28 @@
+.stser-container {
+  font-weight: bold;
+  text-decoration: underline;
+  color: violet;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.stser-container .stser-tooltip {
+  position: absolute;
+  width: 200px;
+  display: none;
+  z-index: 99;
+}
+
+.stser-container:hover .stser-tooltip {
+  display: inline-block;
+}
+
+.stser-container:hover .stser-tooltip img {
+  max-width:100%; 
+  height:auto;
+}
+
+.entry {
+  overflow: visible !important;
+}

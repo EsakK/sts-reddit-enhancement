@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Slay The Spire Enhanced Reddit",
+  "version": "1.0",
+  "author": "Esak_",
+
+  "description": "Find all cards name and add useful information on mouse over",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.reddit.com/r/slaythespire/*"],
+      "js": ["lib/system.js", "dist/app.js", "main.js"],
+      "css": ["css/styles.css"]
+    }
+  ],
+  "permissions": [
+    "https://gist.githubusercontent.com/EsakK/*",
+    "webRequest"
+  ]
+}
