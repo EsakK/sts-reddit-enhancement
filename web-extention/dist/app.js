@@ -81,7 +81,7 @@ System.register("database", ["lexer", "models/card-definition"], function (expor
         execute: function () {
             Database = class Database {
                 constructor() {
-                    this.fileUrl = "https://gist.githubusercontent.com/EsakK/f379e49f2837a72c23b18d8d94de5ab2/raw/20a1e31bd537d1219a7bb7fc584c0e643e11499c/gistfile1.txt";
+                    this.fileUrl = "https://raw.githubusercontent.com/EsakK/sts-reddit-enhancement/master/database/database.json";
                     this.storageVersion = 1;
                     this.storageKey = "stsre-database";
                     this.storageTimeout = 86400000;

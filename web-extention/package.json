@@ -1,0 +1,6 @@
+
+{
+    "scripts": {
+        "build": "web-ext build --overwrite-dest -i src/* package.json **/*.MD **/.gitignore"
+    }
+}
