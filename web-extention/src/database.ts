@@ -3,7 +3,10 @@ import { CardDefinition } from "./models/card-definition";
 
 export class Database
 {
-  private fileUrl : string = "https://gist.githubusercontent.com/EsakK/f379e49f2837a72c23b18d8d94de5ab2/raw/20a1e31bd537d1219a7bb7fc584c0e643e11499c/gistfile1.txt";
+  /**
+   * Retrieve the file from github, we just need to make a pull request in order to update the database.
+   */
+  private fileUrl : string = "https://raw.githubusercontent.com/EsakK/sts-reddit-enhancement/master/database/database.json";
 
   private storageVersion : number = 1;
   private storageKey = "stsre-database";
