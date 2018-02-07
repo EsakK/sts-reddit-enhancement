@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Slay The Spire Enhanced Reddit",
+  "name": "Slay The Spire Reddit Enhancement",
   "version": "1.0",
   "author": "Esak_",
 
@@ -19,7 +19,7 @@
     }
   ],
   "permissions": [
-    "https://gist.githubusercontent.com/EsakK/*",
+    "https://raw.githubusercontent.com/EsakK/sts-reddit-enhancement/master/database/database.json",
     "webRequest"
   ]
 }
